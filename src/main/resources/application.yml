@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: sifu
+    url: jdbc:mysql://127.0.0.1/weixin?characterEncoding=utf-8
+server:
+  port: 8080
+mybatis:
+  config-location: classpath:mybatis/mybatis-config.xml
+  mapper-locations: classpath:mybatis/mapper/*.xml
+  type-aliases-package: com.sifu.weixin.pojo
+
